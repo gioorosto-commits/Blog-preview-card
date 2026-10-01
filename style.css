@@ -1,0 +1,93 @@
+/* მთელი გვერდისთვის */
+body{
+    Background-color: hsl(47, 88%, 63%);      /* ყვითელი ფონი */
+    Height: 100vh;                            /* მთელი ეკრანის სიმაღლე */
+    Margin: 0;                                /* კიდეების წაშლა */
+    Display: flex;                            /* Flexbox */
+    Flex-direction: column;                   /* ვერტიკალურად ჩალაგება */
+    Align-items: center;                      /* ჰორიზონტალურად ცენტრში */
+    Justify-content: center;                  /* ვერტიკალურად ცენტრში */
+    Font-family: Arial, sans-serif;           /* შრიფტი */
+    Padding: 20px;                            /* შიდა დაშორება მობილურისთვის */
+}
+
+/* ბარათი */
+.container{
+    Background-color: white;                  /* თეთრი ბარათი */
+    Padding: 20px;                            /* შიდა დაშორება */
+    Border-radius: 15px;                      /* მომრგვალებული კუთხეები */
+    Max-width: 350px;                         /* მაქსიმალური სიგანე */
+    Width: 100%;                              /* სრული სიგანე მობილურზე */
+    Border: 1px solid black;                  /* შავი ჩარჩო */
+    Box-shadow: 8px 8px 0px black;            /* მკვეთრი შავი ჩრდილი */
+}
+
+/* ბლოგის სურათი (ილუსტრაცია) */
+.blog-image{
+    Width: 100%;                              /* სრული სიგანე */
+    Border-radius: 10px;                      /* მომრგვალებული კუთხეები */
+    Margin-bottom: 20px;                      /* დაშორება ქვემოთ */
+    Display: block;
+}
+
+/* კატეგორია (Learning) */
+.category{
+    Background-color: hsl(47, 88%, 63%);      /* ყვითელი ფონი */
+    Color: hsl(0, 0%, 7%);                    /* მუქი ტექსტი */
+    Padding: 5px 12px;                        /* შიდა დაშორება */
+    Border-radius: 5px;                       /* მომრგვალებული */
+    Font-size: 14px;                          /* ზომა */
+    Font-weight: bold;                        /* მუქი */
+    Display: inline-block;                    /* მხოლოდ ტექსტის ზომა იყოს */
+}
+
+/* თარიღი */
+.date{
+    Color: hsl(0, 0%, 7%);                    /* მუქი ტექსტი */
+    Font-size: 14px;                          /* ზომა */
+    Margin: 15px 0;                           /* დაშორება ზემოთ და ქვემოთ */
+}
+
+/* სათაური */
+h1{
+    Color: hsl(0, 0%, 7%);                    /* მუქი ტექსტი */
+    Font-size: 22px;                          /* ზომა */
+    Margin: 0 0 15px 0;                       /* დაშორება ქვემოთ */
+    Cursor: pointer;                          /* ხელის კურსორი */
+    Transition: 0.3s;                         /* გლუვი ცვლილება */
+}
+
+/* სათაური მაუსის მიტანისას (Frontend Mentor-ის მოთხოვნა) */
+h1:hover{
+    Color: hsl(47, 88%, 63%);                 /* ყვითლდება */
+}
+
+/* აღწერა */
+.description{
+    Color: hsl(0, 0%, 42%);                   /* ნაცრისფერი ტექსტი */
+    Font-size: 15px;                          /* ზომა */
+    Line-height: 1.5;                         /* ხაზებს შორის დაშორება */
+    Margin: 0 0 20px 0;                       /* დაშორება ქვემოთ */
+}
+
+/* ავტორის ბლოკი */
+.author{
+    Display: flex;                            /* Flexbox */
+    Align-items: center;                      /* ვერტიკალურად ცენტრში */
+    Gap: 10px;                                /* დაშორება სურათსა და სახელს შორის */
+}
+
+/* ავტორის სურათი (ავატარი) */
+.avatar{
+    Width: 35px;                              /* სიგანე */
+    Height: 35px;                             /* სიმაღლე */
+    Border-radius: 50%;                       /* მრგვალი ხდება */
+}
+
+/* ავტორის სახელი */
+.author p{
+    Color: hsl(0, 0%, 7%);                    /* მუქი ტექსტი */
+    Font-size: 14px;                          /* ზომა */
+    Font-weight: bold;                        /* მუქი */
+    Margin: 0;
+}
